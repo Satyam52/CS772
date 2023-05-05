@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Meie+Script|Shadows+Into+Light|Arvo|Monda');
+#chat2 .form-control {
+	border-color: transparent;
+  }
+  
+  #chat2 .form-control:focus {
+	border-color: transparent;
+	box-shadow: inset 0px 0px 0px 1px transparent;
+  }
+  
+  .divider:after,
+  .divider:before {
+	content: "";
+	flex: 1;
+	height: 1px;
+	background: #eee;
+  }
+
+#perfectScroll{
+	position: relative;
+    height: 400px;
+	overflow: scroll;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+.font_arvo{
+	font-family: 'Arvo', serif;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.font_shadows_into_light {
+	font-family: 'Segoe UI', cursive;
+	font-weight: 600;
+	color: black;
+  }
+  .font_monda {
+	font-family: 'Monda', sans-serif;
+  }
+  
